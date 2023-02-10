@@ -9,6 +9,8 @@ const Navbar = () => {
         )
     return (
         <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+
+            <h1 className="text-2xl">James M. Carter</h1>
  
             <ul className="hidden md:flex">
                 <li>Home</li>
@@ -35,12 +37,16 @@ const Navbar = () => {
                     <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600"> 
                         <a className="flex justify-between items-center w-full text-gray-300" href='/'> LinkedIn <FaLinkedin size={30}></FaLinkedin> </a> 
                     </li>
-                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-600"> 
+                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-800"> 
                         <a className="flex justify-between items-center w-full text-gray-300" href='/'> Github <FaGithub size={30}></FaGithub> </a> 
                     </li>
-                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600"> 
+                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-green-300"> 
                         <a className="flex justify-between items-center w-full text-gray-300" href='/'> Email <HiOutlineMail size={30}></HiOutlineMail> </a> 
                     </li>
+                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-gray-600"> 
+                        <a className="flex justify-between items-center w-full text-gray-300" href='/'> Resume <BsFillPersonFill size={30}></BsFillPersonFill> </a> 
+                    </li>
+
                 </ul>
             </div>
         </div>
