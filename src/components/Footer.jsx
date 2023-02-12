@@ -1,16 +1,26 @@
 import React, { useState } from "react";
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from "react-icons/fa";
-import {HiOutlineMail} from "react-icons/hi";
-import {BsFillPersonFill} from 'react-icons/bs'
+import Bootstrap from '../assets/bootstrap_icon.png';
+import Javascript from '../assets/js_icon.png';
+import MongoDb from '../assets/mongodb_icon.png';
+import NodeJs from '../assets/nodejs_icon.png';
+import ReactJs from '../assets/react_icon.png';
+import Tailwind from '../assets/tailwind_icon.png';
 
 const Footer = () => {
+      const data = [
+      { id: 1, name: "Boostrap", icon: Bootstrap },
+      { id: 2, name: "Javascript", icon: Javascript },
+      { id: 3, name: "MongoDb", icon: MongoDb },
+    ];  
+
     return (
-        <div className=" bg-red-900 h-10 flex justify-between items-center w-full">
-            <ul className="hidden md:flex">
-                <li>Projects </li>
-                <li>Contact</li>
-            </ul>
+        <div className="h-10 flex justify-between items-center w-full">      
+        
         </div>
+
+
+
+        
 
     )
 }

@@ -32,3 +32,16 @@
     hsla(242, 74%, 61%, 0.8)
   )!important;
 }
+
+.primary-bg {
+  background-color: #3a3845;
+}
+
+.accent-color {
+  border-color: #f7ccac;
+}
+
+.accent-text {
+  color: #f7ccac
+}
+
