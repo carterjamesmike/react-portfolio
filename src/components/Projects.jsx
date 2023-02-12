@@ -1,13 +1,11 @@
-import React from 'react'
-import eCommerce from '../assets/projects/eCommerce_backend.jpg'
-import EmployeeTracker from '../assets/projects/employee_tracker.jpg'
-import JATE from '../assets/projects/JATE_PWA.jpg'
-import Project1 from '../assets/projects/project1.png'
-import SocialMediaBackend from '../assets/projects/social_media_backend.jpg'
-import YourVillage from '../assets/projects/your_village.jpg'
+import React from 'react';
+import { projectData } from '../data/projectData';
 
 
 const Projects = () => {
+
+    const project = projectData;
+
   return (
     <div name='work' className='primary-bg w-full md:h-screen text-gray-300'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
@@ -17,25 +15,27 @@ const Projects = () => {
 
             {/* Container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-                {/* Grid Item */}
+
+                {/* Project Card */}
+                {project.map(project => (
                 <div 
-                style={{backgroundImage: `url(${eCommerce})`}} 
+                style={{backgroundImage: `url(${project.img})`}} 
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold test-white tracking-wider'>
-                            React JS Application
+                            {project.name}
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="">
-                                <button className='text-center rounded-lg px-4 py-3 -2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="">
+                            <a href={project.github}>
                                 <button className='text-center rounded-lg px-4 py-3 -2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                <p>{project.text}</p>
                             </a>                          
                         </div>
                     </div>
-                </div>
+                </div>                    
+                ))}
+
             </div>
 
         </div>
