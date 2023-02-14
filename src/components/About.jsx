@@ -12,10 +12,10 @@ const About = () => {
                 </div>
                 <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold'>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <p>A new full-stack developer with a preference for both React and back-end development.</p>
                     </div>
                     <div>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <p>I am a recent graduate of the University of Texas at Austin Full-Stack Coding Bootcamp. It is there I discoverd a new passion for programming and a drive to constantly learn new technolgoies and languages. Outisde of programming you can often find me riding bikes, smoking briskets, or teaching my three-year old son to play D&D.</p>
                     </div>
                 </div>
             </div>

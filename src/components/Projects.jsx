@@ -1,10 +1,8 @@
 import React from 'react';
 import { projectData } from '../data/projectData';
 
-
 const Projects = () => {
-
-    const project = projectData;
+const project = projectData;
 
   return (
     <div name='Projects' className='primary-bg w-full md:h-screen text-gray-300'>
@@ -15,7 +13,6 @@ const Projects = () => {
 
             {/* Container */}
             <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
-
                 {/* Project Card */}
                 {project.map(project => (
                 <div 
@@ -23,21 +20,19 @@ const Projects = () => {
                 className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     {/* Hover Effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold test-white tracking-wider'>
+                        <span className='flex justify-center text-2xl font-bold text-gray-900 tracking-wider'>
                             {project.name}
                         </span>
                         <div className='pt-8 text-center'>
                             <a href={project.github}>
-                                <button className='text-center rounded-lg px-4 py-3 -2 bg-white text-gray-700 font-bold text-lg'>Code</button>
-                                <p>{project.text}</p>
+                                <button className='text-center rounded-lg px-4 py-3 -2 bg-gray-300 text-gray-900 font-bold text-lg'>Code</button>
+                                <p className='text-gray-900 font-bold text-l pt-4'>{project.text}</p>
                             </a>                          
                         </div>
                     </div>
                 </div>                    
                 ))}
-
             </div>
-
         </div>
     </div>
   )

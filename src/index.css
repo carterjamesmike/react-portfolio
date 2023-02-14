@@ -26,11 +26,11 @@
 }
 
 .content-div:hover {
-  background: linear-gradient(
-    to right,
-    rgba(112, 157, 255, 0.8),
-    hsla(242, 74%, 61%, 0.8)
-  )!important;
+  background:linear-gradient(
+    80deg, 
+    rgba(184,152,129,1) 0%, 
+    rgba(120,99,84,1) 100%
+    )!important;
 }
 
 .primary-bg {
@@ -44,4 +44,6 @@
 .accent-text {
   color: #f7ccac
 }
+
+background: ;
 

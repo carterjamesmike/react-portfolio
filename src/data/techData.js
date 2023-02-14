@@ -1,9 +1,9 @@
-import Bootstrap from '../assets/bootstrap_icon.png';
-import Javascript from '../assets/js_icon.png';
-import MongoDb from '../assets/mongodb_icon.png';
-import NodeJs from '../assets/nodejs_icon.png';
-import ReactJs from '../assets/react_icon.png';
-import Tailwind from '../assets/tailwind_icon.png';
+import Bootstrap from '../assets/icons/bootstrap_icon.png';
+import Javascript from '../assets/icons/js_icon.png';
+import MongoDb from '../assets/icons/mongodb_icon.png';
+import NodeJs from '../assets/icons/nodejs_icon.png';
+import ReactJs from '../assets/icons/react_icon.png';
+import Tailwind from '../assets/icons/tailwind_icon.png';
 
 export const techData = [
     {
