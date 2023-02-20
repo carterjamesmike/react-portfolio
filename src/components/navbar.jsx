@@ -17,7 +17,7 @@ const Navbar = () => {
         ];  
 
     return (
-        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 primary-bg text-gray-300">
+        <div className="fixed w-full h-[80px] flex justify-between items-center px-4 primary-bg text-gray-300 dark:bg-slate-600">
             <h1 className="text-2xl accent-text">James M. Carter</h1>
             <ul className="hidden md:flex">
                 {data.map(link => (
