@@ -8,6 +8,7 @@ import Skills from "./components/Skills"
 
 function App() {
   return (
+    console.log("Click the seagull"),
     <div>
       <Navbar />
       <Home />
