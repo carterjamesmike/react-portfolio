@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from "react-icons/fa";
-import {HiOutlineMail} from "react-icons/hi";
-import {BsFillPersonFill} from 'react-icons/bs'
+import {FaBars, FaTimes } from "react-icons/fa";
 import { Link } from 'react-scroll'
+import { theme } from "../hooks/partyMode";
 
 const Navbar = () => {
     const [nav, setNav] = useState(false);
@@ -17,7 +16,7 @@ const Navbar = () => {
         ];  
 
     return (
-        <div className={`${theme} fixed w-full h-[80px] flex justify-between items-center px-4 primary-bg text-gray-300 dark:bg-slate-900`}>
+        <div className={`fixed w-full h-[80px] flex justify-between items-center px-4 ${theme} text-gray-300`}>
             <h1 className="text-2xl accent-text">James M. Carter</h1>
             <ul className="hidden md:flex">
                 {data.map(link => (

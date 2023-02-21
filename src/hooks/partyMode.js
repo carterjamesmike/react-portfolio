@@ -1,15 +1,29 @@
-import { useState, useEffect } from "react";
+// const [theme, setTheme] = useState("primary-bg")
+
+
+// const toggleTheme = () => {
+//     if (theme === "primary-bg") {
+//         setTheme('party');
+//     } else {
+//         setTheme('primary-bg');
+//     }
+// };
+
+//export default toggleTheme;
+
+
+import { useState } from "react";
   
-export default function useDarkSide() {
-    const [theme, setTheme] = useState(localStorage.theme);
-    const colorTheme = theme === "dark" ? "light" : "dark";
+export default function toggleTheme() {
+    const [theme, setTheme] = useState("primary-bg");
+    
+  const toggleTheme = () => {
+    if (theme === "primary-bg") {
+        setTheme('party');
+    } else {
+        setTheme('primary-bg');
+    }
+    };
   
-    useEffect(() => {
-        const root = window.document.documentElement;
-        root.classList.remove(colorTheme);
-        root.classList.add(theme);
-        localStorage.setItem('theme', theme);
-    }, [theme, colorTheme]);
-  
-    return [colorTheme, setTheme]
+    
 }

@@ -45,7 +45,7 @@
   color: #f7ccac
 }
 
-.blink-bg{
+.party {
   color: #fff;
   animation: blinkingBackground 2s infinite;
 }
@@ -56,9 +56,4 @@
   50%		{ background-color: #ef0a1a;}
   75%		{ background-color: #254878;}
   100%	        { background-color: #04a1d5;}
-}
-
-.darkMode {
-  @apply bg-gray-900;
-  @apply text-white;
 }
