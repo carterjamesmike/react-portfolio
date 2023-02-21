@@ -12,7 +12,12 @@ const Home = () => {
                 <p className="text-[#8892b0] py-4 max-w-[700px]"></p>
             </div>
             <div className=" mx-auto pr-8 pl-[100px] flex flex-col justify-center h-full ">
-                <img className="h-[100px] w-[100px]" src={Seagull} alt="seagull icon" />
+                <button>
+                    <a href="https://falseknees.com/319.html">
+                        <img className="h-[100px] w-[100px]" src={Seagull} alt="seagull icon" />
+                    </a>        
+                </button>
+                
             </div>     
         </div> 
     )
