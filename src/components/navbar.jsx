@@ -62,6 +62,23 @@ const Navbar = () => {
                     </Link>                    
                 </li>                               
             </ul>
+
+            {/* Social Media Icons */}
+            {/* Social Icons */}
+            <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+                <ul>
+                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#b89881]"> 
+                        <a className="flex justify-between items-center w-full text-gray-300" href='https://www.linkedin.com/in/james-carter-938804236/'> LinkedIn <FaLinkedin size={30}></FaLinkedin> </a> 
+                    </li>
+                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#786354]"> 
+                    <a className="flex justify-between items-center w-full text-gray-300" href='https://github.com/carterjamesmike'> Github <FaGithub size={30}></FaGithub> </a> 
+                    </li>
+                    <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#382f27]"> 
+                        <a className="flex justify-between items-center w-full text-gray-300" href='src\assets\pdf\James_Carter_Resume.pdf' download=""> Resume <BsFillPersonFill size={30}></BsFillPersonFill> </a> 
+                    </li>
+
+                </ul>
+            </div>
         </div>
     )
 }

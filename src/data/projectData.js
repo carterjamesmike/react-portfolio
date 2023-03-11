@@ -3,7 +3,7 @@ import EmployeeTracker from '../assets/projects/employee_tracker.jpg'
 import JATE from '../assets/projects/JATE_PWA.jpg'
 import Project1 from '../assets/projects/project1.png'
 import SocialMediaBackend from '../assets/projects/social_media_backend.jpg'
-import YourVillage from '../assets/projects/your_village.jpg'
+import MyHEP from '../assets/projects/My-HEP.jpg'
 
 export const projectData = [
     {
@@ -43,9 +43,9 @@ export const projectData = [
     },
     {
         id: 6,
-        img: YourVillage,
-        name: "Your Village",
-        text: "Collabrative MVC project. Responsible for controllers.",
-        github: "https://github.com/carterjamesmike/Team-Team",
+        img: MyHEP,
+        name: "MyHEP",
+        text: "Collabrative MERN project. Responsible for server and client side mutation/queries.",
+        github: "https://github.com/carterjamesmike/My-HEP",
     },
 ]

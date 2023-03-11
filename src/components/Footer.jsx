@@ -5,7 +5,7 @@ import {BsFillPersonFill} from 'react-icons/bs'
 const Footer = () => {
 
     return (
-        <div className="w-full primary-bg h-15 flex  text-gray-300 justify-around">
+        <div className="md:hidden w-full primary-bg h-15 flex  text-gray-300 justify-around">
             <div>
                 <p className="mx-2"> 
                     <a className="text-gray-300 flex justify-center" href='https://www.linkedin.com/in/james-carter-938804236/'>  <FaLinkedin size={30}></FaLinkedin> </a> 
@@ -17,12 +17,6 @@ const Footer = () => {
                     <a className="text-gray-300 flex justify-center" href='https://github.com/carterjamesmike'>  <FaGithub size={30}></FaGithub> </a> 
                 </p>    
                 <p>Github</p>        
-            </div>
-            <div>
-                <p className="mx-2"> 
-                    <a className="text-gray-300 flex justify-center" href='https://stackoverflow.com/users/21207948/james-carter'>  <FaStackOverflow size={30}></FaStackOverflow> </a> 
-                </p>     
-                <p>Stack Overflow</p>       
             </div>
             <div>
                 <p className="mx-2"> 
