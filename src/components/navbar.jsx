@@ -17,7 +17,7 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 primary-bg text-gray-300">
+    <div className="fixed w-full h-[80px] flex justify-between items-center px-4  primary-bg text-gray-300">
       <div className="flex flex-row justify-center items-center">
         <h1 className="text-2xl accent-text ">James M. Carter </h1>
         <button>

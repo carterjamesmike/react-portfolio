@@ -4,7 +4,7 @@ import { BsFillPersonFill } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <div className="md:hidden w-full primary-bg h-15 flex  text-gray-300 justify-around">
+    <div className="md:hidden w-full bg-primary primary-bg h-15 flex  text-gray-300 justify-around">
       <div>
         <p className="mx-2">
           <a

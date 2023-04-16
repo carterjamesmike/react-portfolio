@@ -3,7 +3,7 @@ import Portrait from "../assets/images/portrait.jpg";
 
 const Home = () => {
   return (
-    <div name="Home" className="flex w-full h-screen primary-bg">
+    <div name="Home" className="flex w-full h-screen bg-primary primary-bg ">
       <div className=" mx-auto pr-8 pl-[100px] flex flex-col justify-center h-full ">
         <p className="accent-text">Hey there, my name is</p>
         <h1 className="text-4xl sm:7xl font-bold text-[#ccd6f6]">
