@@ -17,6 +17,8 @@
   }
 }
 
+
+
 .content-div {
   background-repeat: no-repeat;
   background-size: cover;
@@ -25,13 +27,6 @@
 
 }
 
-/* .content-div:hover {
-  background:linear-gradient(
-    80deg, 
-    rgba(184,152,129,1) 0%, 
-    rgba(120,99,84,1) 100%
-    )!important;
-} */
 
 .content-div:hover {
   background:linear-gradient(
@@ -40,18 +35,6 @@
     rgba(217,73,41,1) 100%
     )!important;
 }
-
-/* .primary-bg {
-  background-color: #3a3845;
-}
-
-.accent-color {
-  border-color: #f7ccac;
-}
-
-.accent-text {
-  color: #f7ccac
-} */
 
 .primary-bg {
   background-color: #2b3040;
