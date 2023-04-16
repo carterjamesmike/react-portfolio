@@ -92,7 +92,7 @@ const Navbar = () => {
       {/* Social Icons */}
       <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
         <ul>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#b89881]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#A6381f]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://www.linkedin.com/in/james-carter-938804236/"
@@ -101,7 +101,7 @@ const Navbar = () => {
               LinkedIn <FaLinkedin size={30}></FaLinkedin>{" "}
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#786354]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#591e11]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://github.com/carterjamesmike"
@@ -110,7 +110,7 @@ const Navbar = () => {
               Github <FaGithub size={30}></FaGithub>{" "}
             </a>
           </li>
-          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#382f27]">
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#59342c]">
             <a
               className="flex justify-between items-center w-full text-gray-300"
               href="https://docs.google.com/document/d/1P59gw0-75GJT9Y64evg4IznVy55bTh8rxHTlEl6b6OE/edit?usp=sharing"
