@@ -25,15 +25,23 @@
 
 }
 
-.content-div:hover {
+/* .content-div:hover {
   background:linear-gradient(
     80deg, 
     rgba(184,152,129,1) 0%, 
     rgba(120,99,84,1) 100%
     )!important;
+} */
+
+.content-div:hover {
+  background:linear-gradient(
+    80deg, 
+    rgba(191,155,147,1) 0%, 
+    rgba(217,73,41,1) 100%
+    )!important;
 }
 
-.primary-bg {
+/* .primary-bg {
   background-color: #3a3845;
 }
 
@@ -43,6 +51,18 @@
 
 .accent-text {
   color: #f7ccac
+} */
+
+.primary-bg {
+  background-color: #2b3040;
+}
+
+.accent-color {
+  border-color: #d94929;
+}
+
+.accent-text {
+  color: #bf9b93
 }
 
 

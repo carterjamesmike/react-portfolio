@@ -1,5 +1,4 @@
 import React from "react";
-import Seagull from "../assets/images/seagull.png";
 import Portrait from "../assets/images/portrait.jpg";
 
 const Home = () => {
