@@ -6,7 +6,6 @@
 @tailwind utilities;
 
 
-
 @layer base {
   body {
     @apply font-[Lato]
@@ -16,7 +15,6 @@
     @apply cursor-pointer
   }
 }
-
 
 
 .content-div {
@@ -47,5 +45,9 @@
 .accent-text {
   color: #bf9b93
 }
+
+/* .img-bg {
+  background-image: url('./src/assets/images/texture.png');
+} */
 
 
