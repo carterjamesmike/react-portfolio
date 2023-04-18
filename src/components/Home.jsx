@@ -16,12 +16,13 @@ const Home = () => {
       </div>
       <div className=" mx-auto pr-8 pl-[100px] flex flex-col justify-center h-full ">
             <img
-              className="max-h-[400px] max-w-[400px] rounded-3xl"
+              className="max-h-[400px] max-w-[400px] rounded-3xl border-[#d94929] border-2 "
               src={Portrait}
-              alt="seagull icon"
+              alt="Portrait"
             />
       </div>
     </div>
   );
+
 };
 export default Home;

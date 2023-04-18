@@ -6,7 +6,7 @@ module.exports = {
   ],
   theme: {
     backgroundImage: {
-      'primary': "url('./src/assets/images/primary.png')",
+      'primary': "url('./assets/images/texture.png')",
     },
   },
   plugins: [],
