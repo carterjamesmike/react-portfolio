@@ -30,25 +30,24 @@ const Projects = () => {
                   {project.name}
                 </span>
                 <div className="pt-8 text-center">
-
                   <a href={project.github}>
                     <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-300 text-gray-900 font-bold text-lg">
                       Code
                     </button>
                   </a>
-                  {project.deployed ?
+                  {project.deployed ? (
                     <a href={project.deployed}>
                       <button className="text-center rounded-lg px-4 py-3 m-2 bg-gray-300 text-gray-900 font-bold text-lg">
                         App
                       </button>
                     </a>
-                    :
+                  ) : (
                     <span></span>
-                  }
+                  )}
 
-                    <p className="text-gray-900 font-bold text-l pt-4">
-                      {project.text}
-                    </p>                  
+                  <p className="text-gray-900 font-bold text-l pt-4">
+                    {project.text}
+                  </p>
                 </div>
               </div>
             </div>
